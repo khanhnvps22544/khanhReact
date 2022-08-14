@@ -1,0 +1,342 @@
+.body{
+    margin-top: 100px;
+    .title{
+        text-align: center;
+    }
+}
+.showDetail{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    .image_detail{
+        width: 43%;
+        img{
+            margin-left: 80px;
+        }
+        .subImage{
+            img{
+                width: 100px;
+                height: 100px;
+                margin-left: 63px;
+            }
+        }
+    }
+    .infor_detail{
+        width: 31%;
+        p{
+            margin: 14px 0;
+            color: $colorGray;
+            span{
+                padding-left: 50px;
+                font-size: 30px;
+                color: $colorRed;
+            }
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        .btn_infor_GoToCart{
+            margin-top: 15px;
+            font-size: 16px;
+            height: 50px;
+            width: 100%;
+            color: $colorGray;
+            border: 1px solid $colorGray;
+        }
+    }
+    .brand_detail{
+        width: 22%;
+        margin-left: 10px;
+        .title_brand{
+            text-align: center;
+            p{
+                margin: 10px;
+            }
+        }
+        .text{
+            display: flex;
+            margin-bottom: 10px;
+            p{
+                margin: 0;
+                font-size: 13px;
+                text-align: left;
+                line-height: 20px;
+            }
+            img{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+.description{
+    margin-left: 56px;
+    .title_des{
+        display: flex;
+        font-size: 20px;
+        .text_des{
+            border: solid 1px;
+            margin-left: 20px;
+            padding: 10px 20px
+        }
+    }
+    .tab_flex{
+        display: flex;
+        .left_tab{
+            width: 70%;
+        }
+    }
+        .tab{
+            width: 90%;
+            border: black solid 1px;
+            padding: 25px;
+            p{
+                padding: 10px;
+            }
+            h3{
+                margin: 10px 0;
+            }
+            ul{
+                margin-left: 20px;
+                list-style: square;
+                margin-top: 20px;
+            }
+        }
+}
+.css-19kzrtu{
+    padding: 0!important;
+}
+.MuiTab-textColorPrimary{
+    color: $colorRed!important;
+    margin-left: 20px!important;
+}
+.MuiTabs-indicator{
+    background-color: $colorRed!important;
+}
+
+
+.container_rating{
+    text-align: center;
+    
+    .rating{
+        border: solid 1px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 310px;
+        
+        margin-top: 15px;
+    }
+    button{
+        width: 20%;
+        margin-left: 245px;
+    }
+}
+.comment{
+    margin-top: 30px;
+    margin-left: 310px;
+    width: 50%;
+    button{
+        margin-left: 245px;
+    }
+}
+.infor{
+        margin-top: 10px;
+        text-align: left;
+        width: 50%;
+        margin-left: 310px;
+        input{
+            margin-left: 3px;
+        }
+        .infor_radio{
+            margin-top: 15px;
+            display: inline-block;
+            input{
+                margin-top: 5px;
+            }
+            label{
+                margin-left: 15px;
+            }
+        }
+    }
+
+.report{
+    margin-left: 310px;
+    width: 50%;
+    .container_report{
+        display: flex;
+        margin: 10px;
+        img{
+            width: 50px;
+            margin-right: 10px;
+        }
+        span:nth-child(1){
+            color: $colorRed;
+            margin-right: 15px;
+        }
+        .text_report{
+            margin-top: 10px;
+            width: 100%;
+            .edit_comment{
+                position: relative;
+                margin: 10px;
+                display: flex;
+                padding-left: 60px;
+                .go2484888251, .go4268192979{
+                    position: absolute;
+                    left: -46px;
+                    top: -40px;
+                }
+            }
+            .showReply{
+                width: 100%;
+                border: 1px solid black;
+            }
+        }
+    }
+    
+}
+.btnClass {
+    background: none;
+  }
+  
+.clickedd {
+background: #f50000;
+}
+// button cart
+
+
+.cart-button {
+    
+        margin-top: 15px;
+        font-size: 16px;
+        height: 50px;
+        background-color: $colorRed;
+        width: 100%;
+    
+    position: relative;
+    outline: 0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    line-height: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.cart-button p{
+    color: white!important;
+}
+.cart-button:focus {
+    outline: none !important
+}
+
+.cart-button .fa-shopping-cart {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: -20%;
+    font-size: 1.8em;
+    transform: translate(-50%, -50%)
+}
+
+.cart-button .fa-square {
+    position: absolute;
+    z-index: 1;
+    top: -20%;
+    left: 53%;
+    font-size: 0.8em;
+    transform: translate(-50%, -50%)
+}
+
+.cart-button span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%)
+}
+
+.cart-button span.added {
+    opacity: 0
+}
+
+.cart-button.clicked .fa-shopping-cart {
+    animation: cart 2s ease-in forwards
+}
+
+.cart-button.clicked .fa-square {
+    animation: box 2s ease-in forwards
+}
+
+.cart-button.clicked .add-to-cart {
+    animation: addcart 2s ease-in forwards;
+}
+
+.cart-button.clicked span.added {
+    animation: added 2s ease-in forwards
+}
+
+@keyframes cart {
+    0% {
+        left: -10%
+    }
+
+    40%,
+    60% {
+        left: 50%
+    }
+
+    100% {
+        left: 110%
+    }
+}
+
+@keyframes box {
+
+    0%,
+    40% {
+        top: -20%
+    }
+
+    60% {
+        top: 36%;
+        left: 53%
+    }
+
+    100% {
+        top: 40%;
+        left: 112%
+    }
+}
+
+@keyframes addcart {
+
+    0%,
+    30% {
+        opacity: 1
+    }
+
+    30%,
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes added {
+
+    0%,
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+.input_reply{
+    margin: 15px 0!important;
+
+}

@@ -1,0 +1,13 @@
+@mixin xs-screen{
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}
+@mixin small-screen{
+    @media only screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+$colorRed: #d50000;
+$colorGray: #888888;

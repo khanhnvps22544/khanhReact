@@ -1,0 +1,81 @@
+.form{
+    display: flex;
+}
+
+.ThanhToan{
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 56px;
+    h2{
+        padding: 20px;
+    }
+    .btn_form{
+        margin-left: 33%;
+        margin-top: 20px;
+        width: 20%;
+    }
+    p{
+        color: #f50000;
+        font-size: 15px;
+    }
+}
+.order{
+    h2{
+        padding: 20px;
+    }
+    margin-top: 100px;
+    width: 50%;
+    border: 1px solid black;
+    .container_order{
+        padding: 20px 50px;
+    }
+    table{
+        text-align: left;
+        padding-left: 60px;
+        width: 100%;
+        // th{
+        //     width: 75%;
+        // }
+        .item_order, hr:last-child{
+            margin: 10px 0;
+            width: 115%;
+        }
+        th:nth-child(1){
+            width: 75%;
+        }
+        hr:last-child{
+            margin: 0;
+        }
+    }
+}
+.part_2_order, .part_discount{
+    margin-left: 60px;
+    width: 78%;
+    margin-bottom: 20px;
+    span:nth-child(2){
+        font-weight: 400;
+        margin: 9px 0px 0px 25%;
+        font-size: 28px
+    }
+}
+.discount{
+    margin-left: 55%;
+    margin-bottom: 20px;
+    p{
+        font-family: 'sans-serif';
+        margin: 30px 0 0 0;
+        padding: 10px;
+    }
+    input, button{
+        padding: 10px;
+        height: 30px;
+        margin-left: 5px;
+    }
+}
+.btn_discount{
+    padding: 10px
+}
+.option_buy{
+    display: flex;
+    flex-direction: column;
+}
